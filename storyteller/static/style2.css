@@ -1,0 +1,57 @@
+h1{
+    color: rgb(23, 102, 78);
+    font-size: 60px;
+    padding: 9px;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #9FE2BF;
+}
+
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(23, 102, 78);
+    background: rgb(23, 102, 78);
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    left: 42%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+form input {
+    border: 0;
+    background: none;
+    display: inline;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid rgb(97, 160, 97);
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+}
+

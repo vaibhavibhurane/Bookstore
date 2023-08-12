@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner {
+    font-family: verdana;
+    background-color: RosyBrown;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('book.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 20px auto;
+    border-bottom: 3px solid rgb(195, 255, 121);
+    display: inline;
+    padding: 9px;
+}
+
+.navbar{
+    margin: auto;
+    padding: 35px 0;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px ;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(195, 255, 121);
+    background: black;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span {
+    background: rgb(200, 3, 108);
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
