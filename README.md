@@ -1,5 +1,9 @@
 # Bookstore
+
 ##Online Book Store Project##
+
+python manage.py runserver 
+
 This Online Book Store Project in Django created using Python language,
 Django, and SQLITE3 Database.
 
